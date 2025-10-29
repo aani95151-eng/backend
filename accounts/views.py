@@ -2,7 +2,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from .serializers import ResisterSerializer,LoginSerializer
 from rest_framework import status
-
+#shamiseeme
 class RegisterView(APIView):
     def post(self, request):
         try:
